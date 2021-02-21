@@ -1,0 +1,71 @@
+#marquee,
+#logo img,
+#scroller {
+    width: 80px;
+}
+
+#scroller {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    bottom: 0px;
+    border-right: 1px white solid;
+    border-top: 1px white solid;
+}
+
+#marquee,
+#scroller {
+    background: black;
+
+}
+
+#marquee {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#logo {
+    background: blue;
+    width: 80.2px;
+    border-right: 1px white solid;
+}
+
+.marquee-container {
+    overflow: hidden;
+}
+
+.marquee {
+    min-width: 10000000%;
+    animation: marquee 15s linear infinite;
+    overflow: hidden;
+    color: white;
+    font-family: "Moon";
+    font-size: 20px
+}
+
+.marquee:nth-child(odd) {
+    background: blue;
+    color: black;
+}
+
+.marquee:hover {
+    animation-play-state: paused;
+    color: black
+}
+
+.marquee:nth-child(odd):hover {
+    animation-play-state: paused;
+    color: blue
+}
+
+@keyframes marquee {
+    from {
+        margin-left: 0%;
+    }
+
+    to {
+        margin-left: -120%;
+    }
+}

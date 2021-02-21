@@ -1,0 +1,83 @@
+#main {
+    width: calc(100%);
+    float: right;
+    margin-top: 40px;
+    top: 0;
+    background-color: transparent;
+}
+
+#main__top-left {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: calc(100vh - 80px);
+}
+
+#main__top-right {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 25px;
+    margin: 0;
+    height: calc(100vh - 39px);
+    align-items: center;
+}
+
+#main__top-left h1 {
+    color: white;
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+    font-family: "Krona";
+}
+
+#main__top-right span {
+    color: black;
+    background-color: white;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    font-family: "Krona";
+}
+
+#main__top-right span span {
+    color: white;
+    background-color: red;
+}
+
+#right__top-work {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    font-family: "Krona";
+    background-color: transparent;
+    padding: 10px;
+    border: 1px white solid;
+    margin-top: 40vh;
+    font-size: 15px;
+    right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#right__top-work a {
+    color: white;
+    transition: 0.3s;
+    text-decoration: none
+}
+
+#right__top-work a:hover {
+    color: black
+}
+
+
+#right__top-work:hover {
+    background-color: blue;
+    color: black;
+    border: 1px blue solid;
+}
+
+.h1 {
+    font-size: 20px
+}

@@ -1,0 +1,85 @@
+#work_page {
+    background-color: black;
+    padding: 20px;
+}
+
+#work {
+    background-color: transparent;
+    border-top: 30px black solid;
+    color: white;
+}
+
+#work .title {
+    font-size: 50px;
+    padding: 10px;
+    font-family: "Krona";
+    background: black;
+    border: 2px black solid;
+    color: white;
+}
+
+.work_item {
+    margin-top: 40px;
+    transition: 0.3s;
+    background-color: blue
+}
+
+.work_item:hover {
+    background: black;
+}
+
+.work_item h1 {
+    font-size: 25px;
+    font-family: "Krona";
+}
+
+.work_image {
+    padding: 0;
+    margin: 0
+}
+
+.work_card img {
+    width: 100%;
+    float: left;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black
+}
+
+.work_card {
+    padding: 0 !important;
+    margin: 0
+}
+
+#work_text span,
+#work_text span a {
+    font-size: 50px;
+    margin: 15px;
+    padding: 0px 5px;
+    font-family: "Krona";
+    color: white;
+    background-color: black
+}
+
+#work_text span:hover,
+#work_text span a:hover {
+    font-size: 50px;
+    margin: 15px;
+    padding: 0px 5px;
+    font-family: "Krona";
+    color: rgb(175, 175, 175);
+    background-color: black
+}
+
+.work_para {
+    margin: 15px;
+    padding: 2px;
+    font-family: "Krona";
+    background-color: transparent;
+    display: block
+}
+
+.read_more {
+    color: blue;
+}
